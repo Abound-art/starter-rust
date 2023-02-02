@@ -1,5 +1,6 @@
 mod abound;
-mod algo;
+
+use algo;
 
 fn main() -> Result<(), abound::Error> {
     let config: algo::Config = abound::load_config()?;
